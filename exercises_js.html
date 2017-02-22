@@ -44,20 +44,43 @@
 //  var average = sum / numbers.length;
 //  console.log(average);
 
-function AddTwoNumbers(number_one, number_two){
-  console.log(number_one + number_two);
-}
-AddTwoNumbers(3, 5);
+// function AddTwoNumbers(number_one, number_two){
+//   console.log(number_one + number_two);
+// }
+// AddTwoNumbers(3, 5);
 
-function average(numnbers) {
-   var sum = 0;
-   for (var i = 0; i < numbers.length; i++){
-     sum = sum + numbers[i];
-   }
-   var average = sum / numbers.length;
-   console.log(average);
+// function average(numbers) {
+//    var sum = 0;
+//    for (var i = 0; i < numbers.length; i++){
+//      sum = sum + numbers[i];
+//    }
+//    var average = sum / numbers.length;
+//    console.log(average);
+// }
+// average([5, 23, 98, 234, 1, 0, 3, 177]);
+// var book = {
+//       title: "Moby Dick",
+//       author: "Herman Meville",
+//       isbn: "978-0553213119",
+//       pages: 704,
+//       publication: 1981,
+//       printDetails: function() {
+//       return this.title + " has been written by " + this.author + " and it was published in " + this.publication + ". Its number of page is equal to " + this.pages + ". The publication number is " + this.isbn;
+//     }
+//   };
+// console.log(book.printDetails());
+for (var i=1; i<101; i++){
+  if (i%3===0 && i%5===0){
+    console.log("FizzBuzz")
+  }
+  else if (i%3===0){
+    console.log("Fizz")
+  }
+  else if (i%5===0){
+    console.log("Buzz")
+  }
+  else console.log(i)
 }
-average([5, 23, 98, 234, 1, 0, 3, 177]);
 
 </script>
 </html>
